@@ -1,0 +1,45 @@
+PATHSARRAYS:
+ PATHMFCC: "MFCC"
+ PATHMELSPEC: "MELSPECTROGRAM"
+ PATHCHRO: "CHROMAGRAM"
+
+
+Data: "data"
+Producto: "Producto"
+Linea: "14"
+Estacion: "80"
+Audios: "Audios"
+Station_Index: "1"
+Function_Unit: "1"
+Work_Position: "1"
+Tool_Position: "1"
+Type_Number: "0260130236"
+Identifier: "V86L231934907124046416"
+Raw: "Raw"
+Clean: "ProcessedAudio"
+Modelo: "modelocategorico1seg.tflite"
+CarpetaModelos: "models"
+Threshold1: 0.002
+Threshold2: 0.03
+StartSec: 0
+EndSec: 1
+Frame_size: 512 #2048
+Hop_lenght: 256
+Hop_size: 512
+Frame_rate: 44100
+Channels: 1
+FramesPerBuffer: 1024
+Number_Mels: 90
+N_fft: 2048
+Number_MFCCs: 13
+Split_frequency: 2000
+NomGrabacion: "Audio"
+BotonGrabar: 11
+BotonDetener: 13
+Grabar: 32
+Listo: 15
+Espera: 36
+PickleReady: 16
+PiezaBuena: 18
+PiezaMala: 22
+duracion: 3
